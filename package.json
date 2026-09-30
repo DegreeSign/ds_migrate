@@ -1,7 +1,7 @@
 {
     "name": "@degreesign/migrate",
-    "version": "1.1.3",
-    "description": "One-command server migration for Apache + PM2 Ubuntu/Debian servers",
+    "version": "1.1.4",
+    "description": "One-command Ubuntu/Debian server migration for Apache + PM2 + Node.js: streaming move of web files, SSL certificates, Apache config, PM2 apps and global npm packages over SSH.",
     "main": "migrate.sh",
     "bin": {
         "server-migration": "./migrate.sh"
@@ -17,11 +17,22 @@
     ],
     "keywords": [
         "server migration",
+        "server-migration",
+        "migrate server",
         "apache2",
+        "apache migration",
         "pm2",
+        "pm2 migration",
         "nodejs",
+        "nvm",
         "devops",
-        "ubuntu"
+        "ubuntu",
+        "debian",
+        "ssh",
+        "rsync",
+        "letsencrypt",
+        "ssl certificates",
+        "cli"
     ],
     "author": "DegreeSign",
     "license": "Apache-2.0",
